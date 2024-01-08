@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "name": "Jenna Wunsch I",
+      "id": 4
+    },
+    {
+      "name": "Lynne Pouros",
+      "id": 5
+    },
+    {
+      "name": "Wade Stanton III",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "userId": 5,
+      "title": "Awesome Frozen Sausages",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "title": "Unbranded Metal Car",
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "title": "Gorgeous Wooden Chair",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "title": "Handcrafted Wooden Chicken",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "title": "Bespoke Granite Salad",
+      "id": 6
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6146854532153344",
+      "id": 1
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5971214445051904",
+      "id": 2
+    }
+  ]
+}

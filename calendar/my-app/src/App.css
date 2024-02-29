@@ -1,0 +1,184 @@
+ .header1{
+    text-align: center;
+    color: #A80000;
+    
+}
+
+.calendar1{
+    color: red;
+    background-color: #500000 ;
+}
+
+.div1{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 140px;
+}
+
+button{
+    background-color:#A80000 ;
+    color: #500000;
+    border-color: red;
+    border-radius: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-style: italic;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button1{
+    width: 100px;
+    height: 50px;
+    margin-left: 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ 
+.navUl{
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 0;
+  padding: 50px 0px 50px 0px;
+}
+
+.navUl li{
+  font-size: 30px;
+}
+
+#navLi{
+  font-size: 50px;
+}
+
+.div02{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  }
+  
+  .contact .rightSide {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact .rightSide h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
+  .footer1{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+
+  ul{
+    margin-top: 100px;
+   display: flex;
+   justify-content: space-around;
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer1,.div02{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .div02{
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .div1{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .navUl{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+    }
+    
+  }
+

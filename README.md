@@ -1,2 +1,2 @@
 # React
-React Projects and typescript react project
+React Projects and typescript react projects

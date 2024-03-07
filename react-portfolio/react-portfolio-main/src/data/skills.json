@@ -1,0 +1,48 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "projects/project.png"
+  },
+
+  {
+    "title": "Jquery",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "Tkinter",
+    "imageSrc": "projects/project.png"
+  },
+
+  {
+    "title": "MySQL",
+    "imageSrc": "projects/project.png"
+  },
+  {
+    "title": "SQlite",
+    "imageSrc": "projects/project.png"
+  }
+]
